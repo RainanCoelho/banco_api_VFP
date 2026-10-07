@@ -1,9 +1,9 @@
 # 🏦 Sistema Bancário Transacional com PostgreSQL
 
 ## 👤 Identificação
-* **Integrantes do Grupo:** [Inserir Nome dos Integrantes aqui]
-* **Disciplina:** [Inserir Nome da Disciplina aqui]
-* **Professor:** [Inserir Nome do Professor aqui]
+* **Integrantes do Grupo:** Rainan Araújo Coelho
+* **Disciplina:** Projeto de Banco de Dados
+* **Professor:** Anderson Soares
 
 ---
 
@@ -17,7 +17,7 @@ A aplicação consiste em uma API REST desenvolvida em Java com Spring Boot inte
 * **Framework:** Spring Boot (Spring Web, Spring Data JPA, Validation)
 * **Banco de Dados:** PostgreSQL[cite: 1]
 * **Bibliotecas Auxiliares:** Lombok
-* **Ferramenta de Testes e Requisições:** Postman / Insomnia
+* **Ferramenta de Testes e Requisições:** HTTPie
 
 ---
 
