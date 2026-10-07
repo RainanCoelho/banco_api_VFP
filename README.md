@@ -40,9 +40,6 @@ A aplicação consiste em uma API REST desenvolvida em Java com Spring Boot inte
 * **`sp_realizar_transferencia(p_origem_id, p_destino_id, p_valor)`:** Stored Procedure responsável por orquestrar a transferência entre duas contas[cite: 1]. Executa validações de contas e saldo, realiza o bloqueio de linha concorrente via `SELECT ... FOR UPDATE`, efetua o débito na origem, o crédito no destino e grava os dois registros de auditoria em partidas dobradas (`TRANSFERENCIA_ENVIADA` e `TRANSFERENCIA_RECEBIDA`) na tabela `transacoes`[cite: 1]. Na aplicação, é acionada pelo endpoint `POST /transacoes`.
 
 ---
-## 🖥️ Link do Vídeo:
--> https://drive.google.com/file/d/1ZbORoEjYonEAXocBnWH5GXfp0eDekiPU/view?usp=drive_link
----
 ## 🚀 Como Executar
 
 ### 1. Configuração do Banco de Dados
